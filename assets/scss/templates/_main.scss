@@ -5,6 +5,11 @@
 
 /* banner */
 .banner {
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
   padding: 220px 0 120px;
   position: relative;
   @include desktop-lg {
@@ -15,9 +20,10 @@
   }
 
   .illustration {
+    width: 30rem;
     position: absolute;
     bottom: 10%;
-    right: 30px;
+    right: 10rem;
     border-radius: 1.5rem;
     @include desktop-xl {
       max-width: 600px;
