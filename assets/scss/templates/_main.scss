@@ -16,8 +16,9 @@
 
   .illustration {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     right: 30px;
+    border-radius: 1.5rem;
     @include desktop-xl {
       max-width: 600px;
     }
