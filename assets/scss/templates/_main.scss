@@ -20,10 +20,10 @@
   }
 
   .illustration {
-    width: 30rem;
+    max-width: 20rem;
     position: absolute;
-    bottom: 10%;
-    right: 10rem;
+    bottom: -20%;
+    right: 30px;
     border-radius: 1.5rem;
     @include desktop-xl {
       max-width: 600px;
@@ -34,9 +34,9 @@
   }
   .illustration-mobile{
     display: none;
-    @include desktop {
-      display: block;
-    }
+    // @include desktop {
+    //   display: block;
+    // }
   }
 }
 
