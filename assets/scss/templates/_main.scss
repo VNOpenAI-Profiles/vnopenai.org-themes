@@ -20,10 +20,10 @@
   }
 
   .illustration {
-    max-width: 20rem;
+    max-width: 30%;
     position: absolute;
     bottom: -20%;
-    right: 30px;
+    right: 10%;
     border-radius: 1.5rem;
     @include desktop-xl {
       max-width: 600px;
