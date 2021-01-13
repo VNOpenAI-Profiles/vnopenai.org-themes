@@ -232,9 +232,11 @@
 /* nav tab */
 .nav-tab{
   .nav-link{
+    margin-top: 0.4rem;
     padding: 15px;
     color: $text-color;
     border-radius: 5px;
+    background: $secondary-color;
     &.active{
       @extend .shadow;
       color: $white;
