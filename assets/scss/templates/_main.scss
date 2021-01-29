@@ -56,21 +56,24 @@
 
 /* wedo */
 .wedo {
-  background: #fbfaf0;
+  background: hsl(204, 100%, 98%);
   min-height: 10rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
 
-  .container {
+  .wedo-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .item {
     img {
-      height: 8rem;
-      width: 8rem;
+      height: 6rem;
+      width: 6rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -83,7 +86,7 @@
       text-align: center;
     }
     flex-flow: row-reverse wrap;
-    width: 15rem;
+    width: 10rem;
   }
 }
 
