@@ -82,6 +82,10 @@
       border: 2px solid #472c01b4;
       border-radius: 50%;
       margin-bottom: 1rem;
+      &:hover {
+        background: #fffc9f;
+      }
+      transition: background-color 1s ease;
     }
     p {
       text-align: center;
